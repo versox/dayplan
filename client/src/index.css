@@ -1,0 +1,54 @@
+#main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2%;
+}
+
+.gridItem {
+  margin: 25px;
+  padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 14px;
+}
+
+li {
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.red {
+    background-color: #fc5051;
+}
+
+.yellow {
+    background-color: #ffb337;
+}
+
+.blue {
+    background-color: #3fc0fc;
+}
+
+.event {
+    border-left: 8px solid;
+    background-color: #e6e7e8;
+}
+
+.event.blue {
+    border-color: #3fc0fc;
+}
+
+.event.purple {
+    border-color: purple;
+}
+
+.event.green {
+    border-color: #8dc63f;
+}
+
+.event.pink {
+    border-color: #fc5051;
+}
